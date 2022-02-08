@@ -28,9 +28,17 @@ Additional fields for STAC used within openEO and other details about how existi
 
 ## Data Processing
 
+For Items and Collections provided as batch job results:
+
 | Field name    | Data Type | Description |
 | ------------- | --------- | ----------- |
 | openeo:status | string    | Indicates the status of the underlying batch job processing, must be one of `running`, `canceled`, `finished`, `error`. For example, this can be used to indicate whether a STAC resource is complete (`finished`) or Potentially incomplete (all other states). |
+
+## Collection filtering
+
+| Field name              | Data Type | Description |
+| ----------------------- | --------- | ----------- |
+| openeo:property_filters | \[string] | Gives a list of properties you can filter on when loading data from the collection. Returning an empty array means that no property-based filters are available. This is a guide for users to get an overview of available properties to filter on. More metadata about the properties can be found in `summaries`. |
 
 ## Links (Web Map Links)
 
