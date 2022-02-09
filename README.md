@@ -43,4 +43,4 @@ For Items and Collections provided as batch job results:
 ## Links (Web Map Links)
 
 Links to WMTS and XYZ services can be provided through the [Web Map Links](https://github.com/stac-extensions/web-map-links) extension.
-Had initially defined in here for openEO, but has been split apart into a separate extension which is fully compliant to what we use in openEO.
+Initially defined within the openEO platform project for openEO, but has been split apart into a separate extension which is fully compliant to what is used in openEO.
